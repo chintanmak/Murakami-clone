@@ -19,10 +19,7 @@
         color: orangered;
     }
 
-    & p{
-        font-size: 1rem;
-        font-weight: 400;
-    }
+    
  }
  & .secondside-footer{
     width: 10rem;
@@ -40,6 +37,17 @@
 
     & input{
         width: 10rem;
+        height: 1.5rem;
+        border-radius: 0.5rem;
+        border: none;
+        padding: 0 0.5rem;
+    }
+    & button{
+        width: 5rem;
+        height: 1.5rem;
+        border: none;
+        border-radius: 0.5rem;
+        margin-left: 0.5rem;
     }
 
     & p{

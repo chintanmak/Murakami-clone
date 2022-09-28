@@ -1,0 +1,107 @@
+.author-container{
+    & .author-header{
+
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    & h1{
+        font-size: 4rem;
+        font-weight: 300;
+    }
+    
+    & hr{
+        width: 10rem;
+        height: 0.01rem;
+        background-color: black;
+    }
+    
+    & p{
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+    }
+
+    & .img-section{
+        & img{
+            width: 100%;
+            height: 100vh;
+        }
+    }
+
+    & .momentofinspiration{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 30rem;
+        background-color: grey;
+        margin-top: -1rem;
+
+        & h1{
+            font-size: 2.5rem;
+            font-weight: 400;
+        }
+
+        & p{
+            font-size: 1.5rem;
+            text-align: center;
+            width: 65rem;
+        }
+    }
+
+    & .two-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 20rem;
+
+        & .first-btb, .second-ownwords{
+            width: 100%;
+            border-left: 1px solid;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           
+            & h1{
+                font-size: 2rem;
+                font-weight: 300;
+            }
+            & p{
+                font-size: 1.2rem;
+                font-weight: 100;
+                width: 28rem;
+                text-align: center;
+            }
+            & .btn-section-twosection{
+                display: flex;
+                flex-direction: row;
+                gap: 1rem;
+                margin-top: 2rem;
+                & button{
+                    color: orange;
+                    width: 15rem;
+                    height: 2rem;
+                    background-color: transparent;
+                    border-width: 0.01rem;
+                }
+            }
+                
+        }
+    }
+
+    & .deskheading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #441111;
+        color: orange;
+        height: 10rem;
+        & h1{
+            font-size: 2.5rem;
+            font-weight: 100;
+        }
+    }
+} 
