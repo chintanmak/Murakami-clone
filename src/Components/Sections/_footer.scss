@@ -14,6 +14,7 @@
  }
  & .firstside-footer{
     width: 20rem;
+    text-align: center;
     
     & h3{
         color: orangered;
@@ -23,13 +24,20 @@
  }
  & .secondside-footer{
     width: 10rem;
+    text-align: center;
     
     & h3{
         color: orangered;
     } 
+    & img{
+        width: 2rem;
+        border-radius: 0.9rem;
+        margin: 1rem;
+    }
 }
  & .thirdside-footer{
     width: 25rem;
+    text-align: center;
     
     & h3{
         color: orangered;

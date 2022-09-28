@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import '../Sections/_footer.scss';
+import pinterest from '../Assets/pinterest.png';
+import facebook from '../Assets/facebook.png';
 
 
 
@@ -17,8 +19,8 @@ export default class Footer extends Component {
             <hr />
             <div className='secondside-footer'>
                 <h3>Connect</h3>
-                <p>Facebook</p>
-                <p>Pinterest</p>
+                <img src={pinterest} />
+                <img src={facebook} />
             </div>
             <hr />
             <div className='thirdside-footer'>
