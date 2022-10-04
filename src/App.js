@@ -6,6 +6,7 @@ import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Author from './Components/Pages/Author';
 import Library from './Components/Pages/Library';
+import Community from './Components/Pages/Community';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path='/author' element={<Author />} />
             <Route path='/library' element={<Library />} />
+            <Route path='/community' element={<Community />} />
           </Route>
      </Routes>
      </BrowserRouter>

@@ -11,7 +11,7 @@ export default class Navbar extends Component {
             <a href='/author'>Author</a>
             <a href='/library'>Library</a>
             <a href='/' className='slp-logo'>Haruki Murakami</a>
-            <a href='#'>Community</a>
+            <a href='/community'>Community</a>
             <a href='#'>Resources</a>
         </div>
 
