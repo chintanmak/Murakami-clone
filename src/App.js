@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Author from './Components/Pages/Author';
 import Library from './Components/Pages/Library';
 import Community from './Components/Pages/Community';
+import Resources from './Components/Pages/Resources';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path='/author' element={<Author />} />
             <Route path='/library' element={<Library />} />
             <Route path='/community' element={<Community />} />
+            <Route path='/resources' element={<Resources />} />
           </Route>
      </Routes>
      </BrowserRouter>
