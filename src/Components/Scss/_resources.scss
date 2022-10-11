@@ -1,84 +1,173 @@
-.resources-container{
-    & .resources-header{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    
-    & h1{
-        font-size: 4rem;
-        font-weight: 300;
-    }
-    
-    & hr{
-        width: 10rem;
-        height: 0.01rem;
-        background-color: black;
-    }
-    
-    & p{
-        padding: 0 23rem;
-        text-align: center;
-        font-size: 1.3rem;
-        font-weight: 100;
-    }       
-    }
-
-    & .resource-first-two-section{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        height: 22rem;
+@media screen and (min-width: 350px) and (max-width: 768px) {
+    .resources-container{
+        & .resources-header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         
-
-        & .excerpts{
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-            background-color: orangered;
-            justify-content: center;
-            align-items: center;
-            padding: 0 5rem;
-            gap: 2rem;
-            & button{
-                color: black;
-                width: 20rem;
-                height: 4rem;
-                background-color: transparent;
-                border-width: 0.02rem;
-                font-size: 1.5rem;
-            }
-
-            & p{
-                padding: 0 2rem;
-                font-size: 1.5rem;
-                text-align: center;
-            }
+        & h1{
+            font-size: 3rem;
+            font-weight: 300;
         }
-
-        & .music{
-            width: 50%;
+        
+        & hr{
+            width: 10rem;
+            height: 0.01rem;
+            background-color: black;
+        }
+        
+        & p{
+            padding: 0 2rem;
+            text-align: center;
+            font-size: 1.3rem;
+            font-weight: 100;
+        }       
+        }
+    
+        & .resource-first-two-section{
             display: flex;
             flex-direction: column;
-            background-color: grey;
-            justify-content: center;
-            align-items: center;
-            padding: 0 5rem;
-            gap: 2rem;
-            & button{
-                color: black;
-                width: 20rem;
-                height: 4rem;
-                background-color: transparent;
-                border-width: 0.02rem;
-                font-size: 1.5rem;
+            // width: 100%;
+            // height: 22rem;
+            
+    
+            & .excerpts{
+                display: flex;
+                flex-direction: column;
+                background-color: orangered;
+                justify-content: center;
+                align-items: center;
+                padding: 1rem 5rem;
+                gap: 2rem;
+                & button{
+                    color: black;
+                    width: 20rem;
+                    height: 4rem;
+                    border-color: white;
+                    background-color: transparent;
+                    border-width: 0.02rem;
+                    font-size: 1.5rem;
+                }
+    
+                & p{
+                    padding: 0 1rem;
+                    font-size: 1.5rem;
+                    text-align: center;
+                }
             }
-
-            & p{
-                padding: 0 2rem;
-                font-size: 1.5rem;
-                text-align: center;
+    
+            & .music{
+                display: flex;
+                flex-direction: column;
+                background-color: grey;
+                justify-content: center;
+                align-items: center;
+                padding: 1rem 5rem;
+                gap: 2rem;
+                & button{
+                    color: black;
+                    width: 20rem;
+                    height: 4rem;
+                    background-color: transparent;
+                    border-color: white;
+                    border-width: 0.02rem;
+                    font-size: 1.5rem;
+                }
+    
+                & p{
+                    padding: 0 1rem;
+                    font-size: 1.5rem;
+                    text-align: center;
+                }
             }
         }
     }
+}
+
+@media screen and (min-width: 769px) {
+    .resources-container{
+        & .resources-header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        
+        & h1{
+            font-size: 4rem;
+            font-weight: 300;
+        }
+        
+        & hr{
+            width: 10rem;
+            height: 0.01rem;
+            background-color: black;
+        }
+        
+        & p{
+            padding: 0 23rem;
+            text-align: center;
+            font-size: 1.3rem;
+            font-weight: 100;
+        }       
+        }
+    
+        & .resource-first-two-section{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 22rem;
+            
+    
+            & .excerpts{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                background-color: orangered;
+                justify-content: center;
+                align-items: center;
+                padding: 0 5rem;
+                gap: 2rem;
+                & button{
+                    color: black;
+                    width: 20rem;
+                    height: 4rem;
+                    background-color: transparent;
+                    border-width: 0.02rem;
+                    font-size: 1.5rem;
+                }
+    
+                & p{
+                    padding: 0 2rem;
+                    font-size: 1.5rem;
+                    text-align: center;
+                }
+            }
+    
+            & .music{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                background-color: grey;
+                justify-content: center;
+                align-items: center;
+                padding: 0 5rem;
+                gap: 2rem;
+                & button{
+                    color: black;
+                    width: 20rem;
+                    height: 4rem;
+                    background-color: transparent;
+                    border-width: 0.02rem;
+                    font-size: 1.5rem;
+                }
+    
+                & p{
+                    padding: 0 2rem;
+                    font-size: 1.5rem;
+                    text-align: center;
+                }
+            }
+        }
+    }    
 }

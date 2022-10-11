@@ -1,87 +1,180 @@
-.library-container{
-    & .library-header{
-        display: flex;
-        flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-    & h1{
-        font-size: 4rem;
-        font-weight: 300;
-    }
-    
-    & hr{
-        width: 10rem;
-        height: 0.01rem;
-        background-color: black;
-    }
-    
-    & p{
-        font-size: 1.5rem;
-        font-weight: 100;
-        width: 55rem;
-        text-align: center;
-    }
-}
-
-& .novelist-section{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    background-color: #b1aeae;
-    & .novelimg{
-        width: 40%;
-        & img{
-            width: 80%;
-        }
-    }
-
-    & .novelcontent{
-        display: flex;
-        flex-direction: column;
+@media screen and (min-width: 350px) and (max-width: 768px) {
+    .library-container{
+        & .library-header{
+            display: flex;
+            flex-direction: column;
         align-items: center;
-        padding: 5rem 0;
-        width: 40%;
-        & h4{
-            font-size: 1.2rem;
+        justify-content: center;
+        
+        & h1{
+            font-size: 3rem;
+            font-weight: 300;
         }
+        
         & hr{
             width: 10rem;
             height: 0.01rem;
-            color: black;
             background-color: black;
         }
-        & h2{
-            font-size: 2.7rem;
-            font-weight: 200;
-        }
+        
         & p{
+            font-size: 1.3rem;
+            font-weight: 100;
             padding: 0 2rem;
             text-align: center;
-            font-size: 1.3rem;
         }
-        & button{
-            color: orange;
+    }
+    
+    & .novelist-section{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: #b1aeae;
+        & .novelimg{
+            width: 40%;
+            padding: 2rem;
+            & img{
+                width: 80%;
+            }
+        }
+    
+        & .novelcontent{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1rem 0 3rem 0;
+            // width: 40%;
+            & h4{
+                font-size: 1.2rem;
+            }
+            & hr{
+                width: 10rem;
+                height: 0.01rem;
+                color: black;
+                background-color: black;
+            }
+            & h2{
+                font-size: 2rem;
+                font-weight: 200;
+            }
+            & p{
+                padding: 0 2rem;
+                text-align: center;
+                font-size: 1.2rem;
+            }
+            & button{
+                color: orange;
+                width: 15rem;
+                height: 2rem;
+                background-color: transparent;
+                border-width: 0.01rem;
+            }
+        }
+    
+    }
+    & .library-section{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        grid-template-columns: auto;
+        border: 1px solid;
+        margin: 2rem;
+        & img{
             width: 15rem;
-            height: 2rem;
-            background-color: transparent;
-            border-width: 0.01rem;
         }
     }
-
-}
-& .library-section{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    grid-template-columns: auto auto auto;
-    border: 1px solid;
-    margin: 2rem;
-    & img{
-        width: 20rem;
     }
 }
+
+@media screen and (min-width: 769px) {
+    .library-container{
+        & .library-header{
+            display: flex;
+            flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        & h1{
+            font-size: 4rem;
+            font-weight: 300;
+        }
+        
+        & hr{
+            width: 10rem;
+            height: 0.01rem;
+            background-color: black;
+        }
+        
+        & p{
+            font-size: 1.5rem;
+            font-weight: 100;
+            width: 55rem;
+            text-align: center;
+        }
+    }
+    
+    & .novelist-section{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: #b1aeae;
+        & .novelimg{
+            width: 40%;
+            & img{
+                width: 80%;
+            }
+        }
+    
+        & .novelcontent{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 5rem 0;
+            width: 40%;
+            & h4{
+                font-size: 1.2rem;
+            }
+            & hr{
+                width: 10rem;
+                height: 0.01rem;
+                color: black;
+                background-color: black;
+            }
+            & h2{
+                font-size: 2.7rem;
+                font-weight: 200;
+            }
+            & p{
+                padding: 0 2rem;
+                text-align: center;
+                font-size: 1.3rem;
+            }
+            & button{
+                color: orange;
+                width: 15rem;
+                height: 2rem;
+                background-color: transparent;
+                border-width: 0.01rem;
+            }
+        }
+    
+    }
+    & .library-section{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        grid-template-columns: auto auto auto;
+        border: 1px solid;
+        margin: 2rem;
+        & img{
+            width: 20rem;
+        }
+    }
+    }    
 }
